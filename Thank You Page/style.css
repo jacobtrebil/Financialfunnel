@@ -1,0 +1,334 @@
+/* Universal Styles */
+
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    align-items: center;
+    background-color: #FBFCFD;
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+/* Header Section */
+
+#header {
+    border-bottom: rgb(167, 167, 167) solid 1px;
+    padding: 20px 0px 60px 0px;
+    margin: 0px -10px 0px -10px;
+    background-color: white;
+}
+
+#logo {
+    margin: 0px 0px 0px 40px;
+    width: 180px;
+}
+
+#action-plan {
+    padding: 14px 26px;
+    background-color: #00ad00;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 4px;
+    margin: -2px 40px 0px 0px;
+}
+
+#action-plan:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+/* Retirement Readiness Section */
+
+#main {
+    background-color: #E7EDF1;
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 40px 0px;
+}
+
+#Retirement-Plan {
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding: 40px 0px 15px 0px;
+}
+
+#your-score {
+    text-align: center;
+}
+
+#below {
+    text-align: center;
+    margin: 0px;
+}
+
+#small  {
+    font-size: 120px;
+}
+
+#Score {
+    font-size: 160px;
+    color: black;
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+#current-score {
+    text-align: center;
+    display: inline-block;
+    margin: 0px 0px 0px 31%;
+}
+
+#following-our-action-plan {
+    text-align: center;
+    display: inline-block;
+    margin: 0px 0px 0px 16%;
+}
+
+#future-score {
+    color: green;
+    font-size: 160px;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+}
+
+#readiness-score-section {
+    display: block;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    margin: 0px auto 0px auto;
+}
+
+#arrow-section {
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+}
+
+#current-score-section {
+    display: block;
+    margin: 0px auto;
+}
+
+#future-score-section {
+    display: inline-block;
+    margin: 0px auto;
+}
+
+#arrow {
+    width: 100px;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+}
+
+.words-box {
+    display: block;
+    margin: 0px auto;
+}
+
+/* Plan Section */
+
+#plan {
+    width: 1000px;
+    margin: 50px auto 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.19);
+    border-radius: 6px;
+    background-color: white;
+}
+
+#retirement-income {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    align-content: center;
+}
+
+#readiness {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    align-content: center;
+}
+
+#retirement-age {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    align-content: center;
+}
+
+#plan h2 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#dropdown {
+    width: 20px;
+}
+
+#drop {
+    background-color: rgb(209, 209, 209);
+}
+
+.income {
+    color: black;
+    text-align: center;
+    margin: 10px auto 30px auto;
+    padding: 0px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.income2 {
+    color: green;
+    text-align: center;
+    margin: 10px 5px 30px 5px;
+    padding: 0px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#arrow2 {
+    width: 20px;
+    display: inline-block;
+}
+
+#dropdown-text {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+#dropdown-text:hover {
+    cursor: pointer;
+}
+
+.age {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#info {
+    padding: 0px 20px 15px 20px;
+    margin: 0px;
+    display: none;
+}
+
+#follow-action-plan {
+    margin: 10px 0px 20px 0px;
+    font-weight: bold;
+}
+
+#action-plan-book {
+    margin: 20px 0px 0px 0px;
+    text-align: left;
+}
+
+/* Next */
+
+#next {
+    text-decoration: none;
+    color: black;
+    margin: 40px auto 0px auto;
+    text-align: center;
+    display: block;
+}
+
+#next:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
+
+/* Recommendations */ 
+
+#step2 {
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 40px 0px;
+    text-align: center;
+}
+
+#next {
+    text-align: center;
+}
+
+#recommendations h1 {
+    padding: 40px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
+}
+
+/* Action Plan Section */
+
+#plan-blocks {
+    margin: 0px auto;
+    text-align: center;
+}
+
+#action-plan-section {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#personalized-tips {
+    margin: 0px 15% 650px 15%;
+}
+
+#recommendations-section {
+    margin: 0px 0px 0px 0px;
+    top: 0;
+    float: left;
+}
+
+#calendar {
+    float: right;
+}
+
+#action-plan-headline {
+    font-weight: bold;
+    margin: 60px 0px 0px 0px;
+    padding: 0px 20px 0px 0px;
+    text-align: left;
+}
+
+.tips {
+    margin: 30px 0px 0px 0px;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+    color: #A7A7A7;
+}
+
+#copyright {
+    margin-top: 0px;
+}
+
+#footer-section {
+    margin: 40px 0px 0px 0px;
+    padding: 0px 0px 40px 0px;
+}
