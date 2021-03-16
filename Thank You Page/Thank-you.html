@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob's Retirement Readiness Score!</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+    <script src="https://js.jotform.com/JotForm.js"></script>
+</head>
+<body id="app">
+
+<!-- Header-->
+
+    <header id="header">
+        <img id="logo" src="./Images/LPL_logo_541_LARGE_New_Outlines copy.png" style="float:left">
+        <a href="#calendar"><button id="action-plan" type="button" style="float: right;">Get Action Plan</button></a>
+    </header>
+
+<!-- Main Section -->
+
+    <div id="main">
+
+<!-- Retirement Readiness Score -->
+
+        <div id="section">
+            <h1 id="Retirement-Plan">Jacob's Retirement Readiness Score!</h1>
+            <p id="below">Step 1: See your retirement readiness score below ↓</p>
+            <img id="readiness-score" src="">
+        </div>
+        <div id="readiness-score-section">
+            <div id="current-score-section">
+                <span id="Score"><b id="red">B-</b> <b id="small">→</b> <b id="green">B+</b></span>
+                <span id="current-score">Current Score</span>
+                <span id="following-our-action-plan">Following Our Action Plan</span>
+                <!-- <p id="your-score">Your Score</p> -->
+            </div>
+       <!-- <div id="arrow-section">
+                <img id="arrow" src="./Images/clipart-arrow-2.gif">
+            </div>
+            <div id="future-score-section">
+                <span id="future-score">B+</span>
+                <p>Following Our Custom Plan</p> 
+            </div> -->
+        </div>
+
+<!-- Plan Section -->
+
+        <div id="plan">
+            <div id="plan-blocks">
+                 <div id="retirement-income">
+                      <h2>Your Retirement Income</h2>
+                      <div>
+                          <h1 class="income">$61,000 → $64,000</h1>
+                      </div>
+                 </div>
+                 <div id="retirement-age">
+                      <h2>Retirement Age</h2>
+                    <div class="word-box">
+                         <h1 class="income">60 → 57</h1>
+                    </div>
+                 </div>
+                 <div id="readiness">
+                    <h2>Retirement Readiness Score</h2>
+                    <div>
+                        <h1 class="income">B- → B+</h1>
+                    </div>
+              <!-- <h3 class="age">If you retire at <b id="sixty">60</b></h3> -->
+                 </div>
+            <p id="follow-action-plan">Following Our Action Plan</p>
+            </div>
+                    <!-- <div id="slider-container">
+                        <input type="range" min="60" max="70" value="60" class="slider" id="myRange">
+                    </div> -->
+            <div id="drop">
+                <p id="dropdown-text">Click here to see how these were calculated ⤵</p>
+            </div> 
+            <div id="Income-info">
+                <p id="info">We calculated your total savings at age 60 based on your
+                    current savings of $400,000, your current monthly savings 
+                    of $4,000, and a modest rate of return on your invested savings.</p>
+            </div> 
+        </div>
+
+<!-- Next Section -->
+
+        <a id="next" href="#calendar">Next: Get Your Action Plan Below ↓</a>
+    </div>
+
+<!-- Action Plan Section -->
+
+    <div id="action-plan-section">
+        <div id="recommendations">
+            <h1>Jacob's Custom Action Plan ↓</h1>
+            <p id="step2">Step 2: Get your personalized action plan by booking a call below</p>
+        </div>
+
+    <!-- By modifying your social security we can often increase your retirement income by as much as <b>$10,000 / Year</b>
+    By working with a Financial Advisor to invest your assets, you can increase your retirement income by as much as <B>$20,000 / Year</b>
+    Have some benefits that are decreasing risk and making it more personalized as well.-->
+
+<!-- Action Plan Section -->
+    
+<div id="personalized-tips">
+    <div id="recommendations-section">
+        <h2 id="action-plan-headline">We've Found <b id="green">3</b> Ways You Can <br>Increase Your Retirement Readiness...</h2>
+        <p class="tips">- Add up to <b id="green">$10,000 a Year</b> by delaying Social Security</p>
+        <p class="tips">- Decrease your taxes by <b id="green">up to 50%</b> with a little-known loophole</p>
+        <p class="tips">- Increase your income by investing into <b id="green">the right stocks</b></p>
+        <p class="tips">- <b id="green">3 secrets</b> most retirees don't know</p>
+        <p class="tips">These are just a few of the recommendations <br> included in the custom action plan we've crafted <br> based on your quiz answers.</p>
+        <h2 id="action-plan-book">Book a call to get your action plan →</h2>
+    </div>
+    <div id="calendar">
+        <!-- ScheduleOnce embed START -->
+        <div id="SOIDIV_retirementplanningcall" data-so-page="retirementplanningcall" data-height="550" data-style="border: 1px solid #d8d8d8; min-width: 400px; max-width: 900px;" data-psz="00"></div>
+        <script type="text/javascript" src="https://cdn.oncehub.com/mergedjs/so.js"></script>
+        <!-- ScheduleOnce embed END -->
+    </div>
+</div>
+
+<!-- Footer -->
+
+    <footer id="footer-section">
+        <p class="footer">Terms of Use | Privacy Policy</p>
+        <p id="copyright" class="footer">© FinancialFunnel 2021</p>
+    </footer>
+
+</div>
+
+
+
+</body>
+</html>
+
+<!-- Include a bunch of sales copy that shows the benefits of speaking 
+    with an Advisor and how much they could potentially save/increase their 
+    income by with just a few social security/saving/etc. changes. Make 
+    it an absolute no brainer to go through their situation with an Advisor.
+-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="./script.js"></script>
+<script src="custom.js"></script>
+<script src="calculations.js"></script>
