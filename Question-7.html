@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retirement Readiness Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="../Thank You Page/custom.js"></script>
+</head>
+<body>
+
+<!-- Quiz Section -->
+
+    <form id="quiz-container" action="Question-8.html">
+        <h1>What is your desired retirement income?</h1>
+        <p>Per year</p>
+        <div id="inputs-container">
+            <input v-model.number="desiredRetirementIncome" id="age" class="input" type="number" placeholder="Retirement Income" required>
+            <input type="submit" value="Next →" id="login-button" href="./Question-2.html" @click.prevent="getFormValues()">
+        </div>
+    </form>
+
+<!-- Steps Section -->
+
+<!-- Footer Section-->
+
+</body>
+</html>

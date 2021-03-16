@@ -1,0 +1,468 @@
+
+/* Universal Styles */
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#start-page {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 26px;
+    padding: 0px 10px 10px 40px;
+    margin: 0px auto;
+    text-align: left;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 48px;
+    padding: 0px 10px 10px 40px;
+    margin: 0px auto;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    margin: 0px 0px 0px 40px;
+}
+
+#image {
+    /* background-image: url('./Images/aaron-burden-cEukkv42O40-unsplash.jpg'); */
+    /* background-repeat: no-repeat; */
+    background-color: #E7EDF2;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header Section */
+
+header {
+    margin: 0px;
+}
+
+button {
+ /*   background-color: green; */
+    background-image: linear-gradient(90deg, rgb(3, 153, 3), rgb(19, 170, 19));
+    color: white;
+    margin: 0px 20px 0px 20px;
+    padding: 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.19);
+}
+
+nav {
+    margin: 60px 20px 0px 0px;
+    display: inline-block;
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+    margin: 0px 30px;
+    font-size: 16px;
+}
+
+.nav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    margin: 35px 0px 0px 40px;
+    display: inline-block;
+}
+
+/* Quiz Section */
+
+#content {
+    width: 100%;
+    margin: 6% 5% 0% 5%;
+    padding: 0px 0px 10% 0px;
+    display: inline-block;
+}
+
+#main-content1 {
+    display: inline-block;
+    padding: 4% 0px 0px 3%;
+}
+
+#main-content1 h2 {
+    margin: 20px 0px 0px 0px;
+    padding: 10% 0px 0px 0px;
+}
+
+#main-content1 p {
+    margin: 20px 0px 0px 0px;
+}
+
+#main-content2 {
+    display: inline-block;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.19);
+    margin: 2% 12% 0px 0px;
+    padding: 0px;
+    width: 600px;
+    align-content: center;
+}
+
+#main-content2 h4 {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    font-size: 36px;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+
+#start-words {
+    text-align: left;
+    margin: 0px 0px 0px 8%;
+    font-size: 22px;
+    color: black;
+}
+
+.input-2 {
+    width: 40%;
+    padding: 15px 10px 15px 20px;
+    margin: 0px 20px 0px 20px;
+    color: rgb(126, 126, 126);
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 3px;
+}
+
+#first-name {
+    margin: 0px 0px 0px 35px;
+}
+
+.input {
+    width: 90%;
+    padding: 15px 10px 15px 20px;
+    margin: 0px 20px 0px 30px;
+    color: rgb(126, 126, 126);
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 3px;
+}
+
+#start-button {
+    width: 80%;
+    border: none;
+    background-color: #00ad00; 
+    /* background-image: linear-gradient(90deg, #e24800, #fa9052); */
+    color: white;
+    border-radius: 6px;
+    padding: 40px 60px;
+    font-size: 22px;
+    margin: 30px auto 60px auto;
+    text-align: center;
+    font-weight: normal;
+    display: block;
+    text-decoration: none;
+}
+
+#start-button:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.19);
+}
+
+.start-button-link {
+    text-decoration: none;
+}
+
+#list {
+    margin: 20px 0px 10px 0px;
+}
+
+.list-item {
+    line-height: 45px;
+    font-size: 20px;
+    margin: 0px auto 0px auto;
+    list-style: none;
+    padding: 0px 30px;
+}
+
+.list-item:before {
+    content: '✅';
+}
+
+/* Credibility Section */
+
+#credibility-section {
+    background-color: #c3dbeb;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+#credibility-section p {
+    color: black;
+    padding: 20px 0px 20px 0px;
+}
+
+/* #credibility-logos {
+    margin: 20px auto 0px auto;
+    padding: 0px 20px;
+    display: inline-block;
+    align-content: center;
+    justify-content: space-around;
+} */
+
+.credibility-box {
+    display: inline-block;
+    width: 30%;
+}
+
+/* How We Help Section */
+
+#how-we-help-section {
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+}
+
+#how-we-help-section h3 {
+    text-align: center;
+    margin: 40px auto 40px auto;
+    font-size: 32px;
+}
+
+.help-box {
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    width: 25%;
+    margin: 0px 20px 0px 20px;
+    vertical-align: top;
+}
+
+.help-box p {
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
+}
+
+.help-box h4 {
+    padding: 20px;
+    margin: 20px;
+    font-size: 24px;
+}
+
+#help-quiz-p {
+    margin: 40px 0px 20px 0px;
+}
+
+#help-quiz-btn {
+    font-size: 24px;
+    padding: 25px 40px;
+    margin: 20px 0px 0px 0px;
+}
+
+/* About Section */
+
+#about-section {
+    background-color: #E7EDF2;
+    padding: 60px 0px 100px 0px;
+}
+
+#about-section h3{
+    margin: 20px auto 20px auto;
+    font-size: 32px;
+    text-align: center;
+}
+
+#name-and-logo {
+    display: inline-block;
+    width: 30%;
+    padding: 2% 0px 0px 10%;
+}
+
+#description-of-advisor {
+    display: inline-block;
+    width: 50%;
+    padding: 0% 10% 0px 0%;
+    margin: 0px;
+}
+
+#name {
+    padding: 2% 0% 0px 5%;
+    font-size: 20px;
+}
+
+/* Quiz Section 2 */
+
+#quiz-section {
+    background-color: #c3dbeb;
+    padding: 20px;
+}
+
+#quiz-section2-header {
+    text-align: center;
+    font-size: 38px;
+    margin: 20px 0px 10px 0px;
+}
+
+#quiz-section2-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+#quiz-button-final {
+    margin: 30px auto 40px auto;
+    text-align: center;
+    display: block;
+}
+
+#quiz-button-btn {
+    font-size: 24px;
+    padding: 25px 40px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin: 0px auto 0px auto;
+    font-size: 12px;
+    color: #A7A7A7;
+    background-color: black;
+    padding: 20px;
+}
+
+#start-footer {
+    text-align: center;
+    margin: 0px auto 0px auto;
+    font-size: 12px;
+    color: #A7A7A7;
+}
+
+.footer-header {
+    margin: 0px 0px 10px 38px;
+}
+
+.footer-section {
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+    margin: 20px 0px 20px 0px;
+    vertical-align: top;
+}
+
+#disclaimer {
+    width: 50%;
+}
+
+#legal {
+}
+
+#contact {
+}
+
+/* Broker Check Section */
+
+#broker-check-section {
+    padding: 0px;
+    background-color: lightgrey;
+}
+
+#broker-check {
+    padding: 20px;
+    margin: 0px;
+    width: 150px;
+}
+
+
+
+
+
+/* Quiz Questions */
+
+#quiz-container {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.19);
+    width: 65%;
+    margin: 18% auto 0px auto;
+    border-radius: 6px;
+}
+
+#inputs-container {
+    margin: 10px auto 30px auto;
+    display: block;
+}
+
+#login-button {
+    color: white;
+    background-color: #00ad00;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+#login-button:hover {
+    cursor: pointer;
+    opacity: 90%;
+}
+
+h1 {
+    padding: 20px 0px 20px 20px;
+}
+
+/* Quiz Start Page */
+
+#quiz-start-main {
+    vertical-align: center;
+    text-align: center;
+    margin: 18% 0px 0px 0px;
+}
+
+#quiz-start-main h2 {
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+
+#quiz-start-main p {
+    font-size: 22px;
+    margin: 0px 0px 10px 0px;
+}
+
+#quiz-start-main button {
+    background-color: #00ad00;
+    color: white;
+    margin: 20px 20px 5px 20px;
+    padding: 25px 40px;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+} 
+
+#quiz-start-main button:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.19);
+}
